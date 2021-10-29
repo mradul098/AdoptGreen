@@ -28,13 +28,9 @@ const NewProduct = ({ history }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "Shramdaan",
+    "Training",
+    "Donation"
   ];
 
   useEffect(() => {
@@ -98,13 +94,13 @@ const NewProduct = ({ history }) => {
             encType="multipart/form-data"
             onSubmit={createProductSubmitHandler}
           >
-            <h1>Create Product</h1>
+            <h1>Add Campaign</h1>
 
             <div>
               <SpellcheckIcon />
               <input
                 type="text"
-                placeholder="Product Name"
+                placeholder="Campaign Name"
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -114,9 +110,13 @@ const NewProduct = ({ history }) => {
               <AttachMoneyIcon />
               <input
                 type="number"
-                placeholder="Price"
+                
+
+                placeholder="Per Unit Price"
                 required
                 onChange={(e) => setPrice(e.target.value)}
+                // value={price}
+                disabled={category!="Donation"}
               />
             </div>
 
@@ -124,7 +124,7 @@ const NewProduct = ({ history }) => {
               <DescriptionIcon />
 
               <textarea
-                placeholder="Product Description"
+                placeholder="Campaign Description"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 cols="30"
@@ -148,7 +148,7 @@ const NewProduct = ({ history }) => {
               <StorageIcon />
               <input
                 type="number"
-                placeholder="Stock"
+                placeholder={category=="Donation" ? "Targeted Plants":"Targetted People"}
                 required
                 onChange={(e) => setStock(e.target.value)}
               />

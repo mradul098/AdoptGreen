@@ -41,7 +41,7 @@ const Dashboard = () => {
     });
 
   const lineState = {
-    labels: ["Initial Amount", "Amount Earned"],
+    labels: ["Initial Amount", "Amount Raised"],
     datasets: [
       {
         label: "TOTAL AMOUNT",
@@ -53,7 +53,7 @@ const Dashboard = () => {
   };
 
   const doughnutState = {
-    labels: ["Out of Stock", "InStock"],
+    labels: ["Completed", "Running"],
     datasets: [
       {
         backgroundColor: ["#00A6B4", "#6800B4"],

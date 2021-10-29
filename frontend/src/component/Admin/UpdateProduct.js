@@ -38,13 +38,9 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "Shramdaan",
+    "Training",
+    "Donation"
   ];
 
   const productId = match.params.id;
@@ -135,13 +131,13 @@ const UpdateProduct = ({ history, match }) => {
             encType="multipart/form-data"
             onSubmit={updateProductSubmitHandler}
           >
-            <h1>Create Product</h1>
+            <h1>Add Campaign</h1>
 
             <div>
               <SpellcheckIcon />
               <input
                 type="text"
-                placeholder="Product Name"
+                placeholder="Campaign Name"
                 required
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -151,10 +147,11 @@ const UpdateProduct = ({ history, match }) => {
               <AttachMoneyIcon />
               <input
                 type="number"
-                placeholder="Price"
+                placeholder="Per Unit Price"
                 required
                 onChange={(e) => setPrice(e.target.value)}
                 value={price}
+                disabled={category!="Donation"}
               />
             </div>
 

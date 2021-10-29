@@ -1,6 +1,6 @@
 # MERN E-COMMERCE TUTORIAL
 
-Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
+Hi! My name is **Mradul Agrawal**, I have created this tutorial to teach MERN Stack for free on YouTube.
 
 # Prerequisite
 
@@ -41,7 +41,7 @@ _fill each filed with your info respectively_
 
 ## Author
 
-**Instagram** Click [Here](https://www.instagram.com/meabhisingh) **@meAbhiSingh**
+**Instagram** Click [Here](https://www.instagram.com/_mradul.agrawal) **@_mradul.agrawal**
 **YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
+**LinkedIn** Click [Here](https://in.linkedin.com/in/_mradul.agrawal) **@_mradul.agrawal**
 **Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**

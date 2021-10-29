@@ -34,7 +34,7 @@ const OrderDetails = ({ match }) => {
               <Typography component="h1">
                 Order #{order && order._id}
               </Typography>
-              <Typography>Shipping Info</Typography>
+              <Typography>Payment Info</Typography>
               <div className="orderDetailsContainerBox">
                 <div>
                   <p>Name:</p>
@@ -83,7 +83,7 @@ const OrderDetails = ({ match }) => {
                 <div>
                   <p
                     className={
-                      order.orderStatus && order.orderStatus === "Delivered"
+                      order.orderStatus && order.orderStatus === "Ended"
                         ? "greenColor"
                         : "redColor"
                     }

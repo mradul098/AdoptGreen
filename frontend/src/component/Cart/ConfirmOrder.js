@@ -19,7 +19,7 @@ const ConfirmOrder = ({ history }) => {
 
   const tax = subtotal * 0.18;
 
-  const totalPrice = subtotal + tax + shippingCharges;
+  const totalPrice = subtotal ;
 
   const address = `${shippingInfo.address}, ${shippingInfo.city}, ${shippingInfo.state}, ${shippingInfo.pinCode}, ${shippingInfo.country}`;
 
@@ -43,7 +43,7 @@ const ConfirmOrder = ({ history }) => {
       <div className="confirmOrderPage">
         <div>
           <div className="confirmshippingArea">
-            <Typography>Shipping Info</Typography>
+            <Typography>Payment Info</Typography>
             <div className="confirmshippingAreaBox">
               <div>
                 <p>Name:</p>
@@ -87,14 +87,14 @@ const ConfirmOrder = ({ history }) => {
                 <p>Subtotal:</p>
                 <span>₹{subtotal}</span>
               </div>
-              <div>
+              {/* <div>
                 <p>Shipping Charges:</p>
                 <span>₹{shippingCharges}</span>
               </div>
               <div>
                 <p>GST:</p>
                 <span>₹{tax}</span>
-              </div>
+              </div> */}
             </div>
 
             <div className="orderSummaryTotal">

@@ -3,12 +3,12 @@ const mongoose = require("mongoose");
 const productSchema = mongoose.Schema({
   name: {
     type: String,
-    required: [true, "Please Enter product Name"],
+    required: [true, "Please Enter Campaign Name"],
     trim: true,
   },
   description: {
     type: String,
-    required: [true, "Please Enter product Description"],
+    required: [true, "Please Enter Campaign Description"],
   },
   price: {
     type: Number,

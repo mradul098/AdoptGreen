@@ -64,12 +64,12 @@ const ProcessOrder = ({ history, match }) => {
             <div
               className="confirmOrderPage"
               style={{
-                display: order.orderStatus === "Delivered" ? "block" : "grid",
+                display: order.orderStatus === "Ended" ? "block" : "grid",
               }}
             >
               <div>
                 <div className="confirmshippingArea">
-                  <Typography>Shipping Info</Typography>
+                  <Typography>Payment Info</Typography>
                   <div className="orderDetailsContainerBox">
                     <div>
                       <p>Name:</p>
@@ -119,7 +119,7 @@ const ProcessOrder = ({ history, match }) => {
                     <div>
                       <p
                         className={
-                          order.orderStatus && order.orderStatus === "Delivered"
+                          order.orderStatus && order.orderStatus === "Ended"
                             ? "greenColor"
                             : "redColor"
                         }
@@ -151,7 +151,7 @@ const ProcessOrder = ({ history, match }) => {
               {/*  */}
               <div
                 style={{
-                  display: order.orderStatus === "Delivered" ? "none" : "block",
+                  display: order.orderStatus === "Ended" ? "none" : "block",
                 }}
               >
                 <form
@@ -165,11 +165,11 @@ const ProcessOrder = ({ history, match }) => {
                     <select onChange={(e) => setStatus(e.target.value)}>
                       <option value="">Choose Category</option>
                       {order.orderStatus === "Processing" && (
-                        <option value="Shipped">Shipped</option>
+                        <option value="Utilised">Utilised</option>
                       )}
 
-                      {order.orderStatus === "Shipped" && (
-                        <option value="Delivered">Delivered</option>
+                      {order.orderStatus === "Utilised" && (
+                        <option value="Ended">Ended</option>
                       )}
                     </select>
                   </div>
