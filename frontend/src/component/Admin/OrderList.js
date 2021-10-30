@@ -65,7 +65,7 @@ const OrderList = ({ history }) => {
     },
     {
       field: "itemsQty",
-      headerName: "Items Qty",
+      headerName: "Planted Lives",
       type: "number",
       minWidth: 150,
       flex: 0.4,
