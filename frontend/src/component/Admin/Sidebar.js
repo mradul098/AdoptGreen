@@ -42,7 +42,7 @@ const Sidebar = () => {
       <Link to="/admin/orders">
         <p>
           <ListAltIcon />
-          Orders
+          Donations
         </p>
       </Link>
       <Link to="/admin/users">
