@@ -1,47 +1,16 @@
-# MERN E-COMMERCE TUTORIAL
+# AdoptGreen 
 
-Hi! My name is **Mradul Agrawal**, I have created this tutorial to teach MERN Stack for free on YouTube.
+The name of the project is AdoptGreen. The project will be based on MERN Stack (MongoDB, ExpressJs, ReactJS and NodeJS) along with Javascript, HTML and CSS.
+It will be a website for users so that they can support small scale ideators to grow their campaign. It’s not necessary that when the word donations come you need to look into your wallet.
+The donation can be in any form, what matters is your kind gesture. 
+AdoptGreen provides its donors various donation forms through which you can contribute and make an impact. In the project there can be 3 types of users donor, Campaigner and Admin.
 
-# Prerequisite
+# Statement about the Problem
 
-1.  Must have basic knowledge of **Node**, **React**, **Express**, **MongoDB** . _I have made tutorial on each technology on YouTube , make sure to check it out_. **Links are Below respectively**
-2.  Node - https://youtu.be/BSO9C8Z-YV8
-3.  React - https://youtu.be/99kgUCIMboY
-4.  Express - https://youtu.be/teipbke8c4A\
-5.  MongoDB - https://youtu.be/AYDP1S5BbTo
-6.  RestApi - https://youtu.be/AhCSfuG9Jxw _(optional)_
+There are multiple plantation crusaders out there working small scale take Kalaimani for instance M Kalaimani’s tryst with trees started quite early when he was a freshman in college back in 1999. His involvement with the National Service Scheme (NSS) in college mandated many tree plantation drives in and around Thanjavur, Tamil Nadu.
+Want to contribute for the greater good but couldn’t find a safe platform? Don’t worry we got you covered
 
-# Install Dependencies
 
-**For Backend** - `npm i`
 
-**For Frontend** - `cd frontend` ` npm i`
 
-## Env Variables
 
-Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
-
-**Essential Variables**
-PORT=
-DB_URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-_fill each filed with your info respectively_
-
-## Author
-
-**Instagram** Click [Here](https://www.instagram.com/_mradul.agrawal) **@_mradul.agrawal**
-**YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
-**LinkedIn** Click [Here](https://in.linkedin.com/in/_mradul.agrawal) **@_mradul.agrawal**
-**Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
