@@ -28,7 +28,7 @@ const Sidebar = () => {
           defaultCollapseIcon={<ExpandMoreIcon />}
           defaultExpandIcon={<ImportExportIcon />}
         >
-          <TreeItem nodeId="1" label="Products">
+          <TreeItem nodeId="1" label="Campaigns">
             <Link to="/admin/products">
               <TreeItem nodeId="2" label="All" icon={<PostAddIcon />} />
             </Link>
@@ -43,6 +43,12 @@ const Sidebar = () => {
         <p>
           <ListAltIcon />
           Donations
+        </p>
+      </Link>
+      <Link to="/admin/addvid">
+        <p>
+          <ListAltIcon />
+          Add video
         </p>
       </Link>
       <Link to="/admin/users">

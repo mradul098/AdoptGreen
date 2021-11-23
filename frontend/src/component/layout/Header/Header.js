@@ -10,7 +10,7 @@ const options = {
   logoHoverSize: "10px",
   logoHoverColor: "#FEFED5",
   link1Text: "Home",
-  link2Text: "Products",
+  link2Text: "Campaigns",
   link3Text: "Contact",
   link4Text: "About",
   link1Url: "/",
