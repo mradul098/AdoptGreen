@@ -1,3 +1,4 @@
+// const { data } = await axios.get("/api/v1/admin/orders");
 import React, { Fragment, useEffect } from "react";
 import { DataGrid } from "@material-ui/data-grid";
 import "./productList.css";

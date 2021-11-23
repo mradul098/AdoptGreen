@@ -83,7 +83,7 @@ const Dashboard = () => {
               <p>{products && products.length}</p>
             </Link>
             <Link to="/admin/orders">
-              <p>Orders</p>
+              <p>Donations</p>
               <p>{orders && orders.length}</p>
             </Link>
             <Link to="/admin/users">

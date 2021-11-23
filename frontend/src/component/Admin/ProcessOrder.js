@@ -114,7 +114,7 @@ const ProcessOrder = ({ history, match }) => {
                     </div>
                   </div>
 
-                  <Typography>Order Status</Typography>
+                  <Typography>Donation Status</Typography>
                   <div className="orderDetailsContainerBox">
                     <div>
                       <p
@@ -128,9 +128,29 @@ const ProcessOrder = ({ history, match }) => {
                       </p>
                     </div>
                   </div>
+                  <Typography>Add Video</Typography>
+                  <div className="orderDetailsContainerBox">
+                    
+                  </div>
+                  <Typography>Donation Status</Typography>
+                  <div className="orderDetailsContainerBox">
+                    <div>
+                      <p
+                        className={
+                          order.orderStatus && order.orderStatus === "Ended"
+                            ? "greenColor"
+                            : "redColor"
+                        }
+                      >
+                        {order.orderStatus && order.orderStatus}
+                      </p>
+                    </div>
+                  </div>
+
+
                 </div>
                 <div className="confirmCartItems">
-                  <Typography>Your Cart Items:</Typography>
+                  <Typography>Your Wishing Donation Campaigns:</Typography>
                   <div className="confirmCartItemsContainer">
                     {order.orderItems &&
                       order.orderItems.map((item) => (
@@ -158,7 +178,7 @@ const ProcessOrder = ({ history, match }) => {
                   className="updateOrderForm"
                   onSubmit={updateOrderSubmitHandler}
                 >
-                  <h1>Process Order</h1>
+                  <h1>Process Donation</h1>
 
                   <div>
                     <AccountTreeIcon />

@@ -145,7 +145,7 @@ const ProductDetails = ({ match }) => {
                     disabled={product.Stock < 1 ? true : false}
                     onClick={addToCartHandler}
                   >
-                    Add to Cart
+                    Adopt Lives
                   </button>
                 </div>
 

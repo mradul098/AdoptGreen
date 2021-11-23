@@ -63,7 +63,7 @@ const Products = ({ match }) => {
       ) : (
         <Fragment>
           <MetaData title="PRODUCTS -- AdoptGreen" />
-          <h2 className="productsHeading">Products</h2>
+          <h2 className="productsHeading">Campaigns</h2>
 
           <div className="products">
             {products &&
